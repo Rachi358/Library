@@ -1,0 +1,79 @@
+ *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 5px;
+
+
+}
+nav > .Labrary{
+    display: flex;
+   
+}
+nav > .Labrary > #option{
+    margin-left: 20px;
+}
+
+nav > .home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left:30px ;
+    text-transform: uppercase;
+
+}
+nav > .home > a{
+    margin-right: 20px;
+    text-decoration: none;
+}
+nav > .home > a:last-child{
+    margin-right: 30px;
+}
+nav > .home > a:hover{
+    color: #3c52f1;;
+}
+
+.container{
+    background-color: blanchedalmond;
+    height: 1500px;
+    margin: 80px ;
+    border: solid 2px;
+ 
+}
+.book{
+    /* border: 2px solid red; */
+     display: grid;
+     justify-content: space-evenly;
+     gap: 20px;
+     padding: 20px;
+     grid-template-columns: repeat(5,auto);
+}
+.box{
+    /* border: 2px solid black; */
+    display: grid;
+}
+.button{
+    background-color: rgb(71, 4, 241);
+    display: flex;
+    justify-content: center;
+    padding: 4px;
+    
+}
+.book > .box > .image{
+    height: 300px;
+    width: 243px;
+}
+
+.foot{
+    background-color: gray;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
